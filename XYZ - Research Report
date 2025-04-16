@@ -1,0 +1,12 @@
+
+
+
+# Import the FPDF library
+from fpdf import FPDF
+
+
+XYZ = FPDF()
+XYZ.add_page()
+XYZ.set_font('Arial', '', 12)
+
+XYZ.output('Block Inc Research Report.pdf')
