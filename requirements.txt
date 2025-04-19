@@ -7,3 +7,5 @@ yfinance
 ipywidgets
 fpdf
 lxml
+
+# run: pip install -r requirements.txt
